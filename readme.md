@@ -9,11 +9,11 @@ A visitor receives a prompt upon opening the website to enter a list of comma-se
 The github repository is https://github.com/fang10000/Unit2.Froyo <br>
 
 Notes: <br>
-* The code is able to identify the unique list of flavors from customer's order and generate a table <br>
+The code is able to identify the unique list of flavors from customer's order and generate a table <br>
 | (index)     | Value   |
-| ----------- | ------- |
+| :----------:| ------- |
 | banana      | 2       |
 | chocolate   | 2       |
 | strawberry  | 1       |
 
-* Additional thinking: this is not robust if the customer misspelled a flavor ("banana,bannaa,strawberry") or the customer added space after ","
+Additional thinking: this is not robust if the customer misspelled a flavor ("banana,bannaa,strawberry") or the customer added space after ","
