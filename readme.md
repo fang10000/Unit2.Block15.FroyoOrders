@@ -26,24 +26,4 @@ Graded 8.5/10 for the below:
 * I did **not** use a function, which is update in the v2.
 * *Reduce* is a very powerful function. I didn't need to do the three step (finding unique value -> set quantity to 0 -> count). This can all be achieved with a one-liner. 
 
-// v1.0 - Initial submission
-// const customerOrder = prompt(
-//   "Please enter your order.",
-//   "banana,banana,chocolate,strawberry,chocolate"
-// );
 
-// var orderArray = customerOrder.split(",");
-
-// var filteredArray = [...new Set(orderArray)];
-
-// const obj = filteredArray.reduce((accumulator, value) => {
-//   return { ...accumulator, [value]: 0 };
-// }, {});
-
-// for (const key in obj) {
-//   for (j = 0; j < orderArray.length; j++) {
-//     if (orderArray[j] === key) {
-//       obj[key]++;
-//     }
-//   }
-// }
