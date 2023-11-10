@@ -16,4 +16,34 @@ The code is able to identify the unique list of flavors from customer's order an
 | chocolate   | 2       |
 | strawberry  | 1       |
 
-Additional thinking: this is not robust if the customer misspelled a flavor ("banana,bannaa,strawberry") or the customer added space after ","
+## UPDATED ON NOV 9 
+Graded 8.5/10 for the below: 
+// An object is used to keep count of how many orders there are of each flavor. -0.5/1.0
+// The program correctly counts the number of each flavor in the user's input. -0.5/1.0
+// The logic for counting the frequencies of elements in an array is organized into a function that returns an object. -0.5/1.0
+
+## Student Notes on Nov 9
+* I did **not** use a function, which is update in the v2.
+* *Reduce* is a very powerful function. I didn't need to do the three step (finding unique value -> set quantity to 0 -> count). This can all be achieved with a one-liner. 
+
+// v1.0 - Initial submission
+// const customerOrder = prompt(
+//   "Please enter your order.",
+//   "banana,banana,chocolate,strawberry,chocolate"
+// );
+
+// var orderArray = customerOrder.split(",");
+
+// var filteredArray = [...new Set(orderArray)];
+
+// const obj = filteredArray.reduce((accumulator, value) => {
+//   return { ...accumulator, [value]: 0 };
+// }, {});
+
+// for (const key in obj) {
+//   for (j = 0; j < orderArray.length; j++) {
+//     if (orderArray[j] === key) {
+//       obj[key]++;
+//     }
+//   }
+// }
